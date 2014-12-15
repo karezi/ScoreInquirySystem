@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--@auther Karezi (http://karezi.co.cc)-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>学生成绩查询系统</title>
+<link href="../sis-includes/sis-css/main.css" rel="stylesheet" type="text/css" />
+<link href="../sis-includes/sis-css/jquery-ui-1.8.18.custom.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<img  id="logo" name="scse-logo" src="../sis-includes/sis-images/scse_logo.gif" width="326" height="76" alt="" />
+
+<div id="top">
+<h1 id="title" class="title" align="center">六 系 学 生 成 绩 查 询</h1>
+</div>
+<center>
+<div id="wrap">
+<form id="student" class="student" method="post" action="sis-result.php">
+
+<div class="sid">
+<label id="student-id"><br />学&nbsp; &nbsp;号：</label>
+<input type="text" id="sid" class="sid" name="sid"  tabindex="1" autofocus="autofocus" height="20%" placeholder="请输入学号" maxlength="8"/>
+        
+        
+<dd>&nbsp;</dd>
+        
+<dt class="sname">
+<label id="student-name">姓&nbsp; &nbsp;名：</label>
+<input type="text" id="sname" class="sname" name="sname"  tabindex="2"  height="20%" placeholder="请输入姓名" maxlength="20"/>
+</dt>
+<dd>&nbsp;</dd>
+        
+<dt class="spsw">
+<label id="student-psw">密&nbsp; &nbsp;码：</label>
+<input type="password" id="spsw" class="spsw" name="spsw"  tabindex="3"  height="20%" placeholder="请输入密码" maxlength="6"/>
+</dt>
+<span id="info">（初始密码六位生日）</span>
+</div>
+<p>&nbsp;</p>
+<p>
+<input type="submit" name="button" id="button" value="查  询"  />
+</p>
+</form>
+		
+</div>
+<div id="author">
+<dd>
+<p>
+<span class="author" >Powered by Karezi
+</span>
+</p>
+</dd>
+<p>
+<span class="web">
+<a href="http://ftp.karezi.co.cc/file" >ftp.karezi.co.cc</a>
+</span>
+</p>
+</div>
+</center>
+</body>
+</html>

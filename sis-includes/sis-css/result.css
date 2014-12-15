@@ -1,0 +1,45 @@
+/**
+ * @auther Karezi (http://karezi.co.cc)
+ */
+@charset "utf-8";
+body {
+	background: #fcfefe url(images/bkg-gry.jpg) no-repeat center top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+	background-color: #EFEFEF;
+}
+#author{
+	clear: both; 
+	width:200px; 
+	height:100px; 
+	z-index:1000; 
+	overflow:hidden; 
+	bottom:0px; 
+	right:0px;
+	position:fixed;
+	/* 火狐、Google浏览器只需要后面这一句代码即可 */
+	position:fixed !important;
+	/* 以下代码是针对IE6的 */
+	_position:absolute;
+	_top: expression( eval( document.documentElement.scrollTop + document.documentElement.clientHeight - this.offsetHeight - (parseInt(this.currentStyle.marginTop,10)||0) - (parseInt(this.currentStyle.marginBottom,10)||0) ) - (parseInt(this.currentStyle.bottom,10)||0) );
+}
+.author{
+	padding-left: 3px;
+}
+.web{
+	padding-left: 4em;
+}
+#table-title{
+	font-family: 'Microsoft YaHei', 'Segoe UI', Tahoma, Arial, Verdana, sans-serif;
+	font-size: 25px;
+	font-weight: 400;
+	
+}.key {
+	font-weight: bold;
+}
+.key {
+	font-weight: bold;
+}
